@@ -45,14 +45,27 @@
   }
   
   &__more {
+    position: relative;
     font-size: 1rem;
     color: #4285f4;
     margin-bottom: 8px;
     opacity: 1;
     transition: all .3s ease;
 
+    &::after {
+      content: '→';
+      position: absolute;
+      top: 2px;
+      right: -20px;
+      transition: all .3s ease;
+    }
+
     &:hover {
       opacity: 0.5;
+    }
+
+    &:hover::after {
+      right: -25px;
     }
 
     @include flexy-breakpoint(large) {

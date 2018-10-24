@@ -27,12 +27,25 @@
   }
   
   &__link {
+    position: relative;
     color: #34a853;
     opacity: 1;
     transition: all .3s ease;
 
     &:hover {
       opacity: 0.5;
+    }
+
+    &::after {
+      content: '→';
+      position: absolute;
+      top: 0;
+      right: -20px;
+      transition: all .3s ease;
+    }
+
+    &:hover::after {
+      right: -25px;
     }
   }
 }
