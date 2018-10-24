@@ -1,3 +1,85 @@
 {
-    "foo": "bar"
+    "news": [
+        {
+            "image": "images/news/news1.png",
+            "heading": "Coast Guard Searches for Missing Royal This Mounth",
+            "adress": "#",
+            "source": "ABC News",
+            "source_link": "https://abcnews.go.com/",
+            "time": "3 hours ago",
+            "text": "Royal Caribbean's Navigator of the Seas pulls out of New Orleans on the Mississippi River, Feb. 2, 2013. 76 Shares. Email. Coast Guard crews"
+        },
+        {
+            "image": "images/news/news2.png",
+            "heading": "Lena Dunham hospitalized after ovarian",
+            "adress": "#",
+            "source": "CBS News",
+            "source_link": "https://abcnews.go.com/",
+            "time": "5 hours ago",
+            "text": "Lena Dunham will undergo surgery after experiencing an ovarian cyst rupture. Spokeswoman Cindi Berger said in a statement"
+        },
+        {
+            "image": "images/news/news3.png",
+            "heading": "Ben Carson suspends his 2016 presidential",
+            "adress": "#",
+            "source": "CBS News",
+            "source_link": "https://abcnews.go.com/",
+            "time": "14 hours ago",
+            "text": "Politics. Donald Trump to skip conservative summit. By Stephanie Condon CBS News March 4, 2016, 5:48 PM Carson Spent Heavily on Consultants, Lightly on"
+        }
+    ],
+    "results": [
+        {
+            "heading": "Google News",
+            "adress": "#",
+            "link": "news.google.com",
+            "link_adress": "https://edition.cnn.com/",
+            "source": "Google News",
+            "text": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        },
+        {
+            "heading": "Fox News - Breaking News Updates | Latest News",
+            "adress": "#",
+            "link": "foxnews.com",
+            "link_adress": "https://edition.cnn.com/",
+            "source": "Fox News Channel",
+            "text": "Offers worldwide news coverage, analysis, show profiles, broadcast schedules, team biographies, and email news alerts."
+        },
+        {
+            "heading": "CNN - Breaking News, Latest News and Videos",
+            "adress": "#",
+            "link": "cnn.com",
+            "link_adress": "https://edition.cnn.com/",
+            "source": "CNN",
+            "text": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com."
+        },
+        {
+            "heading": "Yahoo News - Latest News & Headlines",
+            "adress": "#",
+            "link": "yahoo.com",
+            "link_adress": "https://edition.cnn.com/",
+            "source": "Yahoo! News",
+            "text": "The latest news and headlines from Yahoo! News. Get breaking news stories and in-depth coverage with videos and photos."
+        }
+    ],
+    "live": [
+        {
+            "image": "images/live_logo/bbc_black.png",
+            "name": "BBC",
+            "desc": " Live Streaming Video",
+            "link": "#"
+        },
+        {
+            "image": "images/live_logo/CBS_logo.png",
+            "name": "CBS News",
+            "desc": "Featured Videos",
+            "link": "#"
+        },
+        {
+            "image": "images/live_logo/Cnn.png",
+            "name": "CNN",
+            "desc": "Latest News Videos",
+            "link": "#"
+        }
+    ]
 }

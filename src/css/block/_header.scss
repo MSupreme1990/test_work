@@ -1,0 +1,37 @@
+.b-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 55px;
+
+  @include flexy-breakpoint(large) {
+    margin-bottom: 105px;
+  }
+
+  &__search {
+    display: flex;
+  }
+
+  &__search-input {
+    cursor: pointer;
+    font-size: 24px;
+    width: 100px;
+
+    &::placeholder {
+      font-size: 24px;
+      color: #aaaaaa;
+    }
+  }
+
+  &__voice {
+    background: {
+      image: url("../images/microphone_icon.png");
+      size: contain;
+      position: 50% 50%;
+      repeat: no-repeat;
+    }
+    width: 22px;
+    height: 37px;
+  }
+}

@@ -1,0 +1,12 @@
+{% for item in results %}
+    <div class="b-block">
+        <div class="b-block__content b-block__content_no-margin">
+            <a href="{{ item.adress }}" class="b-block__heading">{{ item.heading }}</a>
+            <div class="b-block__sign">
+                <a href="{{ item.link_adress }}" class="b-block__link" target="_blank">{{ item.link }}</a>
+                <a href="#" class="b-block__source b-block__source_gray">{{ item.source }}</a>
+            </div>
+            <div class="b-block__text">{{ item.text }}</div>
+        </div>
+    </div>
+{% endfor %}

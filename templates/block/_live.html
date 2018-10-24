@@ -1,0 +1,25 @@
+<div class="b-wrapper">
+    <div class="b-row">
+        <div class="b-col b-col_small_12">
+            <div class="b-block-grid b-block-grid_small_1 b-block-grid_medium_3">
+                {% for item in live %}
+                <div class="b-block-grid__item">
+                    <div class="b-live">
+                        <div class="b-live__img-block">
+                            <img src="{{ item.image }}" class="b-live__img" alt="">
+                        </div>
+                        <div class="b-live__content">
+                            <div class="b-live__name">{{ item.name }}</div>
+                            <div class="b-live__desc">{{ item.desc }}</div>
+                            <a href="{{ item.link }}" class="b-live__link">Watch live  →</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            {% include "block/_main-footer.html" %}
+
+        </div>
+    </div>
+</div>

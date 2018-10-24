@@ -1,0 +1,62 @@
+.b-main {
+  margin: 30px 0;
+
+  @include flexy-breakpoint(large) {
+    margin: 0;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  &__heading {
+    font-size: 24px;
+    color: #2e3136;
+  }
+
+  &__header-icon {
+    background: {
+      image: url("../images/heading_icon.png");
+      size: contain;
+      position: 50% 50%;
+      repeat: no-repeat;
+    }
+    width: 14px;
+    height: 14px;
+  }
+
+  &__content {
+    min-height: 470px;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    @media all and (max-width: 400px) {
+      flex-direction: column;
+    }
+  }
+  
+  &__more {
+    font-size: 1rem;
+    color: #4285f4;
+    margin-bottom: 8px;
+    opacity: 1;
+    transition: all .3s ease;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    @include flexy-breakpoint(large) {
+      margin: 0;
+    }
+  }
+}

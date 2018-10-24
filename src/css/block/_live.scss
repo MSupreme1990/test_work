@@ -1,0 +1,38 @@
+.b-live {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+
+  &__img-block {
+    display: block;
+    position:relative;
+    overflow: hidden;
+    background-color: #ebeff4;
+    width: 170px;
+    height: 100px;
+  }
+
+  &__img {
+    margin:0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__content {
+    margin-left: 22px;
+    font-size: 14px;
+    color: #323841;
+  }
+  
+  &__link {
+    color: #34a853;
+    opacity: 1;
+    transition: all .3s ease;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

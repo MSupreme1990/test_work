@@ -1,0 +1,15 @@
+{% for item in news %}
+    <div class="b-block">
+        <div class="b-block__img-block">
+            <img src="{{ item.image }}" class="b-block__img">
+        </div>
+        <div class="b-block__content b-block__content_mobile">
+            <a href="{{ item.adress }}" class="b-block__heading b-block__heading_mobile">{{ item.heading }}</a>
+            <div class="b-block__sign">
+                <a href="{{ item.source_link }}" class="b-block__source" target="_blank">{{ item.source }}</a>
+                <div class="b-block__time">{{ item.time }}</div>
+            </div>
+            <div class="b-block__text">{{ item.text }}</div>
+        </div>
+    </div>
+{% endfor %}

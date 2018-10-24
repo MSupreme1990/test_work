@@ -1,4 +1,30 @@
 <div class="b-wrapper">
-    <h1>sdfsdfsd</h1>
-    <p>sdfsdfdsf</p>
+    <div class="b-row">
+        <div class="b-col b-col_small_12 b-col_medium_6 b-col_large_5">
+            <div class="b-main">
+                <div class="b-main__header">
+                    <h2 class="b-main__heading">Trending News Articles</h2>
+                    <div class="b-main__header-icon"></div>
+                </div>
+
+                <div class="b-main__content">
+                    {% include "block/_news.html" %}
+                </div>
+                {% include "block/_main-footer.html" %}
+            </div>
+        </div>
+        <div class="b-col b-col_large_2 b-visible b-visible_large_up"></div>
+        <div class="b-col b-col_small_12 b-col_medium_6 b-col_large_5">
+            <div class="b-main">
+                <div class="b-main__header">
+                    <h2 class="b-main__heading">Top result</h2>
+                    <div class="b-main__header-icon"></div>
+                </div>
+                <div class="b-main__content">
+                    {% include "block/_result.html" %}
+                </div>
+                {% include "block/_main-footer.html" %}
+            </div>
+        </div>
+    </div>
 </div>
