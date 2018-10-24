@@ -1,0 +1,47 @@
+// Максимальное количество колонок
+$flexy-grid-columns: 12;
+// Отступы между колонками
+$flexy-grid-gutter: 15px;
+// Максимальная ширина контейнера
+$flexy-grid-wrapper-max-width: 1200px;
+// Минимальная ширина контейнера
+$flexy-grid-wrapper-min-width: auto;
+
+//Шрифты
+$flexy-font: 'Lato', sans-serif;
+$flexy-heading-font: 'Lato', sans-serif;
+
+
+//Цветовая схема
+$flexy-theme-colors: (
+        default: #ef233c,
+        text_white: #fff,
+        gray: #c8c8c8,
+        darkgray: #757575,
+        black_meta: #444444,
+        black: #2e2e2e,
+        black_menu: #474747,
+        marker: #1e63ca
+);
+$flexy-theme-sizes: (
+        xsmall: .67em,
+        small: .83em,
+        medium: 1em,
+        large: 1.17em,
+        xlarge: 1.5em,
+        xxlarge: 2em
+);
+$flexy-breakpoints: (
+        small: 0,
+        medium: 768px,
+        large: 992px,
+        xlarge: 1200px,
+        xxlarge: 1600px
+);
+$flexy-block-grid-count: 12;
+$flexy-body-font-size: 16px;
+$flexy-body-line-height: 1.5;
+$flexy-body-text-color: #000;
+$flexy-heading-text-color: $flexy-body-text-color;
+$flexy-heading-font: $flexy-font;
+$flexy-block-grid-padding: 1em;
