@@ -53,11 +53,16 @@
     transition: all .3s ease;
 
     &::after {
+      display: none;
       content: '→';
       position: absolute;
       top: 2px;
       right: -20px;
       transition: all .3s ease;
+
+      @include flexy-breakpoint(large) {
+        display: block;
+      }
     }
 
     &:hover {

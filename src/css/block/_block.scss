@@ -1,9 +1,13 @@
 .b-block {
-  display: flex;
-  align-items: center;
+  display: block;
   margin-bottom: 30px;
   &:last-child {
     margin-bottom: 0;
+  }
+
+  @include flexy-breakpoint(large) {
+    display: flex;
+    align-items: center;
   }
 
   &__content {
@@ -16,10 +20,11 @@
     }
 
     &_mobile {
-      padding-left: 16px;
+      padding-left: 0;
 
       @include flexy-breakpoint(large) {
         width: 350px;
+        padding-left: 16px;
       }
     }
   }
@@ -29,7 +34,15 @@
     position:relative;
     min-width: 129px;
     min-height: 129px;
+    width: 129px;
+    height: 129px;
     overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 16px;
+
+    @include flexy-breakpoint(large) {
+      margin: 0;
+    }
   }
 
   &__img {
